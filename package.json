@@ -1,0 +1,11 @@
+{
+  "author": "Leandro Boffi (lboffi@gmail.com)",
+  "name": "cloudbus-client",
+  "description": "Node.js client for cloudbus service.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leandrob/cloudbus-client.git"
+  },
+  "main": "./lib/index.js"
+}
