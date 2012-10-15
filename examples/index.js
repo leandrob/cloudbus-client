@@ -1,26 +1,17 @@
 var bus = require('../lib/');
 
 bus.configure(function() {
-	bus.host = "cloudbus.com";
-	bus.key = "2e796f85308dbbeeb6ec7bbefcbcbae3571c5bf34c499b52";
+	bus.host = "cloud-bus.net";
+	bus.key = "8a79f8969ef76de41911d052a473d87309fcddd049edee00";
 });
 
-bus.service('/hello', function(req, res) {
-	
-	res.send("<h1>Welcome to cloudbus!</h1>");
-
+bus.get('/hello', function(req, res) {
+	res.send('helloooooo!')
 });
 
-bus.service('/hello/world', function(req, res) {
-	
-	var name = req.query.name;
+bus.post('/hello', function(req, res) {
 
-	if (name) {
-		res.send("<h1>Hello " + name + "</h1>");
-		return;
-	}
-
-	res.send("<h1>Hello world!</h1>");
+	res.send('hello ' + req.body.user);
 });
 
 bus.publish();

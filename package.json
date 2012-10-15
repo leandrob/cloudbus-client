@@ -1,11 +1,11 @@
 {
   "author": "Leandro Boffi (lboffi@gmail.com)",
   "name": "cloudbus-client",
-  "description": "Node.js client for cloudbus service.",
+  "description": "A very minimalist mongodb client for Node.js",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/leandrob/cloudbus-client.git"
+    "url": "git://github.com/leandrob/mongo-docstore.git"
   },
   "main": "./lib/index.js"
 }
