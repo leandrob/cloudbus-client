@@ -1,11 +1,14 @@
 {
   "author": "Leandro Boffi (lboffi@gmail.com)",
   "name": "cloudbus-client",
-  "description": "A very minimalist mongodb client for Node.js",
-  "version": "0.0.2",
+  "description": "Cloud bus client",
+  "version": "0.0.3",
+  "dependencies": {
+  	    "nssocket": "0.3.8"
+  }
   "repository": {
     "type": "git",
-    "url": "git://github.com/leandrob/mongo-docstore.git"
+    "url": "git://github.com/leandrob/cloudbus-client.git"
   },
   "main": "./lib/index.js"
 }
